@@ -6,9 +6,9 @@ android {
         applicationId "com.zhaoshuang.weixinrecordeddemo"
         minSdkVersion 17
         //如果设置targetSdkVersion版本为23或23以上时, System.loadLibrary("utility")初始化就会UnsatisfiedLinkError
-        targetSdkVersion 17
+        targetSdkVersion 18
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
